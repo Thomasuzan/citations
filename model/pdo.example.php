@@ -2,8 +2,6 @@
 
 /**
  * Renvoie un objet PDO
-
- * 
  * @param string $dsn destination
  * @param string $user utilisateur de la base de données
  * @param string $password mot de passe de l'utilisateur de la base de données
