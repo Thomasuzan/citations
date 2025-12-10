@@ -1,0 +1,27 @@
+# Fichiers de configuration sensibles
+config/database.php
+*.env
+.env.local
+
+# Dépendances
+/vendor/
+/node_modules/
+
+# Fichiers uploadés par les utilisateurs
+/public/images/authors/*
+!/public/images/authors/.gitkeep
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Cache
+*.cache
+/tmp/
