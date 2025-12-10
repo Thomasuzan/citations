@@ -35,7 +35,7 @@ ob_start();
 
 <div class="row g-4">
     <?php foreach ($authors as $author) : ?>
-        <div class="col-4">
+        <div class="col-12 col-sm-6 col-lg-4">
             <div class="card h-100">
                 <?php if (!empty($author['src'])): ?>
                     <img class="card-img-top" src="<?= $author['src'] ?>" alt="Photo de <?= htmlspecialchars($author['author']) ?>">
