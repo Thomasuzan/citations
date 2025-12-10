@@ -4,7 +4,7 @@ if (isset($_POST['author'], $_POST['birthday'], $_POST['deathday'], $_POST['biog
 
     if(!$_FILES['src']['error']){
         move_uploaded_file($_FILES['src']['tmp_name'],  ROOT . '/public/images/authors/' . $_FILES['src']['name']);
-        $src = 'images/authors/' . $_FILES['src']['name'];
+        $src = 'public/images/authors/' . $_FILES['src']['name'];
     }else{
         $src = null;
     }
@@ -21,8 +21,6 @@ if (isset($_POST['author'], $_POST['birthday'], $_POST['deathday'], $_POST['biog
         'src' => $src
     ];
    
- 
-  
     createAuthor($pdo,$data);
     header('Location: index.php?controller=authors');
     exit;
