@@ -1,4 +1,5 @@
 # Fichiers de configuration sensibles
+model/pdo.php
 config/database.php
 *.env
 .env.local

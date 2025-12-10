@@ -2,10 +2,7 @@
 
 /**
  * Renvoie un objet PDO
- * 
- * INSTRUCTIONS :
- * 1. Copiez ce fichier et renommez-le en "pdo.php"
- * 2. Remplacez les valeurs par vos identifiants de base de données
+
  * 
  * @param string $dsn destination
  * @param string $user utilisateur de la base de données
