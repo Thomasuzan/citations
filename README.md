@@ -2,6 +2,10 @@
 
 Application web de gestion de citations et d'auteurs développée en PHP avec une architecture MVC.
 
+## 🌐 Démo en ligne
+
+👉 **[Voir l'application](https://www.citations.thomasuzan.fr/)**
+
 ## Fonctionnalités
 
 - 📖 **Consultation publique** : Les visiteurs peuvent parcourir les auteurs et leurs citations
@@ -9,6 +13,7 @@ Application web de gestion de citations et d'auteurs développée en PHP avec un
 - 👤 **Gestion des auteurs** : CRUD complet (Create, Read, Update, Delete)
 - 💬 **Gestion des citations** : CRUD complet avec attribution à un auteur
 - 👥 **Gestion des utilisateurs** : Administration des comptes utilisateurs
+- 📱 **Responsive** : Interface adaptée mobile, tablette et desktop
 
 ## Technologies utilisées
 
@@ -18,7 +23,27 @@ Application web de gestion de citations et d'auteurs développée en PHP avec un
 - **TinyMCE** - Éditeur de texte riche
 - **Architecture MVC** - Séparation des responsabilités
 
-## Installation
+## Captures d'écran
+
+### Liste des auteurs
+![Liste des auteurs](screenshots/liste-auteurs.png)
+
+### Détail d'un auteur
+![Détail auteur](screenshots/detail-auteur.png)
+
+### Liste des citations
+![Liste des citations](screenshots/liste-citations.png)
+
+### Page de connexion
+![Connexion](screenshots/connexion.png)
+
+### Ajouter un auteur
+![Ajouter un auteur](screenshots/ajouter-auteur.png)
+
+### Modifier un auteur
+![Modifier un auteur](screenshots/modifier-auteur.png)
+
+## Installation en local
 
 1. Cloner le repository
 ```bash
@@ -30,7 +55,9 @@ git clone https://github.com/VOTRE_USERNAME/citations.git
 mysql -u root -p < quotes.sql
 ```
 
-3. Configurer la connexion BDD dans `model/pdo.php`
+3. Configurer la connexion BDD
+   - Copier `model/pdo.example.php` vers `model/pdo.php`
+   - Renseigner vos identifiants de base de données
 
 4. Accéder au projet via votre serveur local (WAMP, XAMPP, etc.)
 ```
@@ -63,10 +90,9 @@ citations/
 └── public/                # Fichiers publics (images, CSS, JS)
 ```
 
-## Captures d'écran
-
-*À venir*
-
 ## Auteur
 
-Développé dans le cadre d'une formation DWWM.
+Développé par **Thomas UZAN** dans le cadre d'une formation DWWM.
+
+- 🌐 Portfolio : [thomasuzan.fr](https://thomasuzan.fr)
+- 💼 LinkedIn : [linkedin.com/in/thomas-uzan](https://www.linkedin.com/in/thomas-uzan/)
